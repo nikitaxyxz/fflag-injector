@@ -2,7 +2,7 @@
 A lightweight FastFlag injector for Roblox focused on simplicity and stability. Loads a local fflag.json, pulls FFlag offsets from GitHub, and writes values directly to running Roblox processes. Includes auto-launch, multi-instance support, and a minimal black-quartz interface.
 
 
-Features
+# Features
 
 Load and apply FastFlags from fflag.json
 
@@ -16,7 +16,7 @@ Auto-launch Roblox and auto-inject
 
 Clean, compact UI
 
-How to Use
+# How to use
 
 Load your fflag.json
 
@@ -26,10 +26,12 @@ Click Inject
 
 Use Uninject to revert
 
-Notes
+# Notes
 
 Config stored in %AppData%/FFlagToolkit/
 
 Safe write limits (up to 4 bytes per offset)
 
 Supports all common FFlag types
+
+# .NET 10 REQUIRED
